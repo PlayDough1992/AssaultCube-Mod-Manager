@@ -114,8 +114,3 @@ Future ACMM updates will introduce new natives for:
 - All mods must use these natives exclusively
 - Direct memory manipulation outside these natives is not supported
 - Mods attempting to bypass these restrictions may be blocked
-
-## Support
-For questions, issues, or to share your mods, visit:
-- GitHub Repository: [Link to repo]
-- Discord Community: [Link to Discord]
