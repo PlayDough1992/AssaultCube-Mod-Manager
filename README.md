@@ -44,6 +44,10 @@
 ```
 ❌ Raw .lua files → WILL NOT WORK
 ✅ Compiled mods → WILL WORK
+
+🔴 This is for developers own protection, we do not want your intellectual property being stolen, therefore we have chosen
+to hardcode this safety protocol into all versions of ACMM v1.5.0 and newer. Therefore, any non-compiled mod will be ignored
+by the mod manager from version 1.5.0 and up.
 ```
 
 **The mod manager will ONLY load compiled mods. No exceptions.**
