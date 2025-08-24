@@ -44,10 +44,6 @@
 ```
 ❌ Raw .lua files → WILL NOT WORK
 ✅ Compiled mods → WILL WORK
-
-🔴 This is for developers own protection, we do not want your intellectual property being stolen, therefore we have chosen
-to hardcode this safety protocol into all versions of ACMM v1.5.0 and newer. Therefore, any non-compiled mod will be ignored
-by the mod manager from version 1.5.0 and up.
 ```
 
 **The mod manager will ONLY load compiled mods. No exceptions.**
@@ -92,6 +88,10 @@ end
 | `natives.safeGetAmmo()` | Get primary weapon ammo | Returns: number |
 | `natives.safeSetAmmo(value)` | Set primary weapon ammo | Parameter: number |
 | `natives.resetPlayer()` | Reset to default state | Health=100, Ammo=30 |
+| `natives.getArmor()` | Get current armor | Returns: number (0-100) |
+| `natives.setArmor(value)` | Set player armor value | Parameter: number (0-100) |
+| `natives.safeGetArmor()` | Get current armor | Returns: number (0-100) |
+| `natives.safeSetArmor(value)` | Set player armor value | Parameter: number (0-100) |
 
 ---
 
@@ -337,6 +337,10 @@ end
 | `natives.safeGetAmmo()` | Obtener munición del arma principal | Retorna: número |
 | `natives.safeSetAmmo(value)` | Establecer munición del arma principal | Parámetro: número |
 | `natives.resetPlayer()` | Resetear a estado por defecto | Salud=100, Munición=30 |
+| `natives.getArmor()` | Obtener armadura actual | Retorna: número (0-100) |
+| `natives.setArmor(value)` | Establecer valor de armadura del jugador | Parámetro: número (0-100) |
+| `natives.safeGetArmor()` | Obtener armadura actual | Retorna: número (0-100) |
+| `natives.safeSetArmor(value)` | Establecer valor de armadura del jugador | Parámetro: número (0-100) |
 
 ---
 
@@ -417,6 +421,10 @@ end
 | `natives.safeGetAmmo()` | Получить патроны основного оружия | Возвращает: число |
 | `natives.safeSetAmmo(value)` | Установить патроны основного оружия | Параметр: число |
 | `natives.resetPlayer()` | Сбросить к состоянию по умолчанию | Здоровье=100, Патроны=30 |
+| `natives.getArmor()` | Получить текущую броню | Возвращает: число (0-100) |
+| `natives.setArmor(value)` | Установить значение брони игрока | Параметр: число (0-100) |
+| `natives.safeGetArmor()` | Получить текущую броню | Возвращает: число (0-100) |
+| `natives.safeSetArmor(value)` | Установить значение брони игрока | Параметр: число (0-100) |
 
 ---
 
