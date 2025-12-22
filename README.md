@@ -34,7 +34,7 @@ end
 
 ## Natives Reference
 
-All game interactions must be done through the `natives` table. These functions provide safe, validated access to game memory and features. **Based on actual mod_base.py implementation:**
+All game interactions must be done through the `natives` table. These functions provide safe, validated access to game memory and features. **Based on actual mod_base implementation:**
 
 ### 📊 Health System
 
@@ -336,6 +336,7 @@ end
 ---
 
 **Happy modding!** 🎮⚡
+
 
 
 
